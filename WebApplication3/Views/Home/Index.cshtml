@@ -1,0 +1,9 @@
+﻿@model WebApplication3.Models.usermodel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<div id="ddlyear">
+   @Html.DropDownList("SelectedItem", Model.ListItems, "Select a month")
+</div>
