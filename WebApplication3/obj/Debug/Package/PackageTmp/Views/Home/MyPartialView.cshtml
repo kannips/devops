@@ -1,0 +1,6 @@
+﻿@model WebApplication3.Models.usermodel
+@{
+    ViewBag.Title = "Home Page";
+}
+@Html.DropDownList("SelectedItem", Model.ListItems1, "Select a date")
+@*@Html.DropDownList("SelectedDate", new SelectList((System.Collections.IEnumerable)ViewData["Date"], "Value", "Text", "Select a Date"))*@
