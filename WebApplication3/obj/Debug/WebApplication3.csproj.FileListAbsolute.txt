@@ -159,6 +159,5 @@ C:\kannijenkins\WebApplication3\bin\Microsoft.Owin.Security.OAuth.xml
 C:\kannijenkins\WebApplication3\bin\Microsoft.Owin.Security.Google.xml
 C:\kannijenkins\WebApplication3\bin\Microsoft.Owin.Security.Twitter.xml
 C:\kannijenkins\WebApplication3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\kannijenkins\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
 C:\kannijenkins\WebApplication3\obj\Debug\WebApplication3.dll
 C:\kannijenkins\WebApplication3\obj\Debug\WebApplication3.pdb
