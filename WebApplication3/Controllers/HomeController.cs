@@ -10,8 +10,7 @@ using WebApplication3.Models;
 namespace WebApplication3.Controllers
 {
     public class HomeController : Controller
-    {
-        [Test]
+    {        
         public ActionResult Index()
         {
             string current = calenderItem.GetCurrentYearRecords();
@@ -28,8 +27,7 @@ namespace WebApplication3.Controllers
             //string currentDate = calenderItem.GetCurrentYearRecords();
             return View(model);
         }
-
-        [Test]
+     
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -37,7 +35,6 @@ namespace WebApplication3.Controllers
             return View();
         }
 
-        [Test]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
