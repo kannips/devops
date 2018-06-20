@@ -217,6 +217,7 @@
     <Compile Include="Models\calenderItem.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\TestClass.cs" />
     <Compile Include="Models\usermodel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
