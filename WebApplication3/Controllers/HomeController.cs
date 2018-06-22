@@ -10,24 +10,26 @@ using WebApplication3.Models;
 namespace WebApplication3.Controllers
 {
     public class HomeController : Controller
-    {        
+    {
+        TestClass obj = new TestClass();
         public ActionResult Index()
         {
+            obj.TestDepartmentCreateRedirect();
             string current = calenderItem.GetCurrentYearRecords();
             var dict1x = current.Split(' ');
             string monthss = dict1x[0].ToString();
             int monthnox = DateTime.ParseExact(monthss, "MMMM", CultureInfo.InvariantCulture).Month;
             var model = new usermodel
-            {              
+            {
                 ListItems = calenderItem.Years(),
-                ListItems1= calenderItem.GetDates(monthnox),
-                SelectedItem = monthnox              
+                ListItems1 = calenderItem.GetDates(monthnox),
+                SelectedItem = monthnox
             };
             //ViewData["Records"] = calenderItem.Years();
             //string currentDate = calenderItem.GetCurrentYearRecords();
             return View(model);
         }
-     
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -41,7 +43,7 @@ namespace WebApplication3.Controllers
 
             return View();
         }
- 
+
         //public ActionResult Index(string[] values)
         //{
         //    string Monthyear = values[0];
